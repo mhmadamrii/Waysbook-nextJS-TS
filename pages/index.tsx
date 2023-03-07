@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
+import { Button } from '@mui/material'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -17,11 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Hello world, this is such a stupid things</h1>
         <h1>Hello world, this is such a stupid things</h1>
-        <h1>Hello world, this is such a stupid things</h1>
-        <h1>Hello world, this is such a stupid things</h1>
-        <h1>Hello world, this is such a stupid things</h1>
-        <h1>Hello world, this is such a stupid things</h1>
-        <h1>Hello world, this is such a stupid things</h1>
+        <Button variant='contained' color='primary'>Click here</Button>
       </main>
     </>
   )
