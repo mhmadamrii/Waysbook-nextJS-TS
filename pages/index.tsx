@@ -16,6 +16,12 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
+        <h1>Hello world, this is such a stupid things</h1>
       </main>
     </>
   )
