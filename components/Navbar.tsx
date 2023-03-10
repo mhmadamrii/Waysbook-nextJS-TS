@@ -5,7 +5,7 @@ import Logo from "#/assets/assets/Logo.png"
 
 import { Button, Theme, Grid } from '@mui/material'
 import { ITheme } from 'interfaces/interface'
-import { makeStyles } from '@mui/styles'
+// import { makeStyles } from '@mui/styles'
 
 interface IStyles {
   container: {
@@ -15,13 +15,13 @@ interface IStyles {
   };
 }
 
-const useStyles = makeStyles({
-  container: {
-    display: 'flex',
-    position: 'absolute',
-    top: 10,
-  },
-})
+// const useStyles = makeStyles({
+//   container: {
+//     display: 'flex',
+//     position: 'absolute',
+//     top: 10,
+//   },
+// })
 
 const styles: IStyles = {
   container: {
@@ -32,7 +32,7 @@ const styles: IStyles = {
 }
 
 export const NavbarAdmin: React.FC = () => {
-  const classes = useStyles()
+  // const classes = useStyles()
   return (
     <React.Fragment>
       <div style={styles.container}>
