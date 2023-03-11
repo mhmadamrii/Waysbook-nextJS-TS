@@ -11,11 +11,24 @@ const useStyles = makeStyles({
   }
 })
 
-const styles = {
+type container = {
+  justifyContent: string
+  border?: string
+  position: 'absolute' | 'relative' | 'fixed'
+  display: string
+  top: number
+  left: number
+  right: number
+}
+
+interface IStyles {
+  container: container
+}
+
+const styles: IStyles = {
   container: {
     justifyContent: 'center',
-    // flexDirection: 'column',
-    border: '1px solid red',
+    // border: '1px solid red',
     position: 'absolute',
     display: 'flex',
     top: 100,
