@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import Logo from '#/assets/assets/Logo.png'
 
-import { Button, Theme, Grid } from '@mui/material'
-import { makeStyles } from '@material-ui/core'
+import { Button, Theme, Grid, withStyles } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 import { ITheme } from 'interfaces/interface'
 
 interface IStyles {
