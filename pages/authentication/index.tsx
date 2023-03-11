@@ -31,7 +31,7 @@ const styles: IStyles = {
     // border: '1px solid red',
     position: 'absolute',
     display: 'flex',
-    top: 100,
+    top: 210,
     left: 0,
     right: 0,
   },
@@ -48,10 +48,6 @@ const Authentication: React.FC = () => {
         <div>
           <Typography className={classes.typographies}>With us, you can shop online & help</Typography>
           <Typography className={classes.typographies}>save your high street at the same time</Typography>
-        </div>
-
-        <div>
-          
         </div>
       </div>
     </React.Fragment>

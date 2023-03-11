@@ -9,7 +9,7 @@ const styles = {
   container: {
     display: 'flex',
     justifyContent: 'space-between',
-    border: '1px solid blue'
+    // border: '1px solid blue'
   },
   images: {
     width: 600,

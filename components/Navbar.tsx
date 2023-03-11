@@ -5,27 +5,9 @@ import Logo from '#/assets/assets/Logo.png'
 
 import { Button, Theme, Grid, withStyles } from '@mui/material'
 import { makeStyles } from '@mui/styles'
-import { ITheme } from 'interfaces/interface'
+import { ITheme, IStylesNavbar } from 'interfaces/interface'
 
-interface IStyles {
-  container: {
-    display: string
-    justifyContent: string
-    position: 'absolute' | 'relative' | 'fixed'
-    top: number
-    right: number
-    left: number
-    padding: string
-    alignItems: string
-    height: number
-  }
-  imageLogo: {
-    width: number
-    height: number
-  }
-}
-
-const styles: IStyles = {
+const styles: IStylesNavbar = {
   container: {
     display: 'flex',
     justifyContent: 'space-between',

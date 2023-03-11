@@ -5,6 +5,7 @@ import { Button } from '@mui/material'
 
 import Authentication from './authentication'
 import BackgroundLayer from '@/components/layer-background'
+import ThumbNail from '@/components/ThumbNails'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,8 +21,8 @@ export default function Home() {
           <Authentication />
         </div>
 
-        <div style={{ height: 500, border: '1px solid red', backgroundColor: '#E5E5E5' }}>
-          <h1>Hello world</h1>
+        <div style={{ height: 500, backgroundColor: '#E5E5E5' }}>
+          <ThumbNail />
         </div>
       </main>
     </>
