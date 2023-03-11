@@ -15,8 +15,14 @@ export default function Home() {
         <title>WaysBook | The best store</title>
       </Head>
       <main>
-        <BackgroundLayer />
-        <Authentication />
+        <div>
+          <BackgroundLayer />
+          <Authentication />
+        </div>
+
+        <div style={{ height: 500, border: '1px solid red', backgroundColor: '#E5E5E5' }}>
+          <h1>Hello world</h1>
+        </div>
       </main>
     </>
   )
